@@ -1,6 +1,7 @@
 import { homepage } from "./pages/homepage.js"
 import { contact } from "./pages/contact.js"
 import { menu } from "./pages/menu.js"
+import  "./styles/styles.css"
 
 homepage();
 

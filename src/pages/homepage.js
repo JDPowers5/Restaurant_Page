@@ -9,8 +9,6 @@ function homepage() {
 
     const image = document.createElement("img");
     image.src = girlChef;
-    image.height = 550;
-    image.width = 386;
     image.alt = "young girl dressed as chef";
 
     const header = document.createElement("h1")
@@ -20,7 +18,7 @@ function homepage() {
     span.textContent= `Quinn's Diner was inspired by our daugther Quinn! At a young age Quinn enjoyed 
                      picking our fresh raspberries from our garden so much. She inspired us to grow 
                      all of our own food. Since then we have expanded our garden and we would like to 
-                     share with you are favorite recipes with every item sourced here right outside 
+                     share with you our favorite recipes with every item sourced here right outside 
                      the diner! Bon Appétit!`
 
     const fragment = document.createDocumentFragment();

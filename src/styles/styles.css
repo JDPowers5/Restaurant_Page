@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+dt {
+    padding: 10px;
+    font-size: 2em;
+}
+
+li {
+    font-size: 20px;
+    padding: 5px;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
+
+button {
+    border-radius: 25px;
+    background-color: aquamarine;
+}
+
+button:hover {
+    background-color: rgb(127, 255, 176);
+}
